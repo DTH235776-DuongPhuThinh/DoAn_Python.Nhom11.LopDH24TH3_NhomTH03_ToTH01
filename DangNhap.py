@@ -9,7 +9,7 @@ def check_login():
     username = entry_user.get()
     password = entry_pass.get()
 
-    if username == "thinhlegend" and password == "248569":
+    if username == "admin" and password == "248569":
         login_window.destroy()
         open_main_window()
     else:
